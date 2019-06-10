@@ -15,7 +15,7 @@ File headers must have the same exact name as source code files, even if the hea
 
 relative path is not allowed, since no support was added for that.
 
-# behaviour
+# behavior
 
 To run Maker, simply type ` Maker mainFile.c `. all source files will be recursively opened, checked for new header files, and closed, starting with mainFile.c. After all relevant source codes are read, missing header files will be detected and generated. then a Makefile will be created, considering all headers and source codes. The Makefile will have a **run**, **all**, **valgrind** and **zip** tags:
 
